@@ -117,8 +117,8 @@ const Header = () => {
                     "px-3 py-2 rounded-md text-sm font-medium link-underline cursor-pointer",
                     scrolled
                       ? "text-secondary hover:text-secondary"
-                      : "text-white hover:text-white",
-                    isActive && "text-primary"
+                      : "text-white hover:text-white"
+                    // isActive && "text-primary"
                   )}
                 >
                   {item.name}

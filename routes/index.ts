@@ -8,5 +8,8 @@ export const PATHS = {
   root: ROOT,
   practiceAreas: PRACTICE_AREAS_ROOT,
   contact: "/contact",
+  termsOfService: "/terms-of-service",
+  privacyPolicy: "/privacy-policy",
+  legalDisclaimer: "/legal-disclaimer",
   singlePracticeArea: (slug: string) => paths(PRACTICE_AREAS_ROOT, `/${slug}`),
 };
